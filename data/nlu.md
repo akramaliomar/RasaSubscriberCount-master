@@ -72,3 +72,7 @@
 - what everyone calls you
 - may i know your name please
 
+
+## intent:what_food
+- what food do you have
+- what can i get here
