@@ -1,3 +1,6 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
 intents:
 - greet
 - goodbye
@@ -7,7 +10,9 @@ intents:
 - thanks
 - number_of_subscriber
 - what_name
-templates:
+- mood_great
+- mood_unhappy
+responses:
   utter_greet:
   - text: Hey! How may I assist you?
   utter_anything_else:
@@ -17,9 +22,9 @@ templates:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_subscriber:
-    - text: Your subscriber count is {count}.
+  - text: Your subscriber count is {count}.
   utter_name:
-    - text: "My name is Innovate."	
+  - text: My name is Akram.
 actions:
 - utter_greet
 - utter_iamabot
