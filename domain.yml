@@ -10,9 +10,9 @@ intents:
 - thanks
 - number_of_subscriber
 - what_name
-- what_food
 - mood_great
 - mood_unhappy
+- what_food
 responses:
   utter_greet:
   - text: Hey! How may I assist you?
@@ -23,14 +23,11 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_subscriber:
-  - text: Your subscriber count is {count}.
+  - text: Your subscriber count is 12.
   utter_name:
   - text: My name is Akram.
   utter_food:
-  - text: We have rice, cassava, chicken, etc.
-  utter_greet:
-  - text: Hey! How may I assist you?
-  
+  - text: We have rice, cassava, chicken, etc
 actions:
 - utter_greet
 - utter_iamabot

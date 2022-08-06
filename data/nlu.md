@@ -1,9 +1,10 @@
-## intent: number_of_subscriber
+## intent:number_of_subscriber
 - what is the number of subscriber of my channel on youtube?
 - May i know what is my current subscriber count?
 - how many subscriber do I have right now?
+- how many subscriber do you have
 
-## intent: thanks
+## intent:thanks
 - thank you so much
 - thanks
 - thank you
@@ -71,7 +72,6 @@
 - tell me your name
 - what everyone calls you
 - may i know your name please
-
 
 ## intent:what_food
 - what food do you have
