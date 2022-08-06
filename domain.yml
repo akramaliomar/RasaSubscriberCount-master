@@ -10,6 +10,7 @@ intents:
 - thanks
 - number_of_subscriber
 - what_name
+- what_food
 - mood_great
 - mood_unhappy
 responses:
@@ -25,6 +26,11 @@ responses:
   - text: Your subscriber count is {count}.
   utter_name:
   - text: My name is Akram.
+  utter_food:
+  - text: We have rice, cassava, chicken, etc.
+  utter_greet:
+  - text: Hey! How may I assist you?
+  
 actions:
 - utter_greet
 - utter_iamabot
